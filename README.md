@@ -124,17 +124,19 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb de HTML-code volledig uitgewerkt. Ik kwam nog niet tegen problemen aan met dit gedeelte. Verder moet ik nog beginnen aan de CSS code, dit vind ik wel wat lastiger dan HTML. Ik moet er nog een start aan maken dus ik kan er nu niet veel over zeggen. Verder moet ik achterhalen wanneer ik flex-box moet gebruiken en wanneer ik grid moet gebruiken
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+  Fee Philips:
+  1. Moet nog alles in HTML zetten, tekst + plaatjes
+  2. nog meer oefenen
+  3. Vragen stellen in de les
+  Mila de Waard:
+  Carmen:
+
 
 ### Verslag van meeting
 
