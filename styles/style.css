@@ -1,34 +1,631 @@
-/**************/
+/* ************
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-
-button, summary {
-	cursor: pointer;
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
 }
-
-
-
-
+button,
+summary {
+  cursor: pointer;
+}
+img {
+  width: 100%;
+}
+main {
+  margin: 0;
+}
+html.open {
+  overflow: hidden;
+}
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  /* startje */
+  --color-text: #111;
+  --color-background: #fff;
+  --color-button: #067a46;
+  --color-hover-button: #e4eebf;
+  --color-grey-background: #f8f8f8;
+  --color-border-footer: #bbbbbb;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
 /****************/
+h1 {
+  display: none;
+}
+li {
+  list-style: none;
+}
 
-/* jouw code */
+/* header */
+header {
+  --color-boxshadow: 0em 2px rgb(0 0 0/15%);
+  background-color: var(--color-background);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--color-boxshadow);
+  padding: 1em;
+}
+header > button {
+  border: none;
+  background-color: var(--color-background);
+  width: 3em;
+  height: 3em;
+  position: absolute;
+  left: 1em;
+  z-index: 1;
+}
+header button img {
+  margin: 0;
+  width: 2em;
+  height: 2em;
+  align-self: start;
+}
+header nav {
+  transition: 1s;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 35%;
+  background-color: var(--color-background);
+  transform: translateX(-100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 100;
+}
 
+header > div.open {
+  transition: 0.3s;
+  --color-nav-back: rgb(36, 36, 36);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 30%;
+  background-color: var(--color-nav-back);
+  z-index: 50;
+  cursor: pointer;
+}
+header nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1.1em;
+  font-weight: 600;
+}
+header nav.open {
+  transform: translateX(0%);
+}
+
+header nav > button {
+  border: 1px solid var(--color-button);
+  border-radius: 0.2em;
+  color: var(--color-button);
+  background-color: var(--color-background);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 80%;
+  line-height: 2.5em;
+  font-size: 1em;
+  font-weight: 600;
+}
+header img {
+  width: 6em;
+  order: 1;
+}
+
+/* eerste section: Take the stress out of mealtime*/
+main section:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url(/images/hero_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+main section:nth-of-type(1) h2 {
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+main section:nth-of-type(1) p {
+  font-size: 1.25em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-weight: 400;
+}
+
+main section:nth-of-type(1) a:nth-of-type(1) {
+  text-decoration: none;
+  color: var(--color-background);
+  background-color: var(--color-button);
+  border-radius: 0.2em;
+  padding: 0.75em 1em;
+  width: 10em;
+}
+main section:nth-of-type(1) a:nth-of-type(2) {
+  background-color: var(--color-background);
+  margin-top: 1em;
+  padding: 1em;
+  height: 3em;
+  width: 3em;
+  border: 1px solid var(--color-button);
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+main section:nth-of-type(1) a:nth-of-type(2) img {
+  width: 1.5em;
+  transform: translateX(-17%);
+}
+
+/* tweede section: Why HelloFresh? */
+section:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-grey-background);
+}
+section:nth-of-type(2) h2 {
+  margin: 2em;
+}
+section:nth-of-type(2) ul {
+  padding: 0;
+}
+section:nth-of-type(2) img {
+  width: 30%;
+  margin-top: 1.25em;
+}
+
+section:nth-of-type(2) ul li p:nth-of-type(1) {
+  font-weight: 600;
+  margin-bottom: 0.325em;
+  font-size: 1em;
+}
+section:nth-of-type(2) > button {
+  border: 1px solid var(--color-button);
+  border-radius: 0.2em;
+  color: var(--color-button);
+  background-color: var(--color-background);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
+  padding: 0.7em 1.5em;
+}
+/* derde section: whats inside each box? */
+section:nth-of-type(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section:nth-of-type(3) img {
+  margin: 1em;
+  width: 95%;
+}
+section:nth-of-type(3) h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+section:nth-of-type(3) ul {
+  padding: 0;
+  gap: 1em;
+}
+section:nth-of-type(3) ul li {
+  margin: 1em;
+}
+section:nth-of-type(3) ul li a {
+  color: var(--color-button);
+}
+section:nth-of-type(3) > a {
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid var(--color-button);
+  border-radius: 0.2em;
+  color: var(--color-background);
+  background-color: var(--color-button);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: 600;
+  width: 90%;
+  line-height: 3em;
+}
+
+/* vierde section: #HelloFreshPics */
+section:nth-of-type(4) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 9em;
+}
+section:nth-of-type(4) > p {
+  margin-bottom: 5em;
+}
+section:nth-of-type(4) h2 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+section:nth-of-type(4) ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+}
+section:nth-of-type(4) ul {
+  width: 100;
+}
+section:nth-of-type(4) ul li p {
+  max-width: 17em;
+  order: 100;
+}
+section:nth-of-type(4) ul li h3 {
+  order: 50;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+/* section:vierde section Scarroussel */
+.caroCarrousel {
+  /* basis waarden die door de hele carrousel gebruikt worden */
+  /* kun je zelf aanpassen */
+  --caroCarrouselMainColor: #333;
+  --caroCarrouselAccentColor: #1b75b3;
+  --caroCarrouselShadeColor: #ddd9;
+
+  position: relative;
+  outline: none;
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+  .caroCarrousel {
+    --caroCarrouselMainColor: #ccc;
+    --caroCarrouselShadeColor: #4449;
+  }
+}
+
+/************************************/
+/* de carrousel elementen container */
+.caroCarrousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+
+  /* handmatig scrollen is mogelijk */
+  overflow: hidden;
+
+  /* snappen als er gescrolled wordt - andere helft bij li */
+  scroll-snap-type: inline mandatory;
+
+  /* smooth als met js gescrolled wordt */
+  scroll-behavior: smooth;
+
+  /* scrollbar zoveel mogelijk verbergen */
+  -webkit-overflow-scrolling: touch; /* voor iOS*/
+  -ms-overflow-style: none; /* voor IE */
+  scrollbar-width: none; /* voor firefox */
+}
+
+.caroCarrousel > ul::-webkit-scrollbar {
+  /* scrollbar zoveel mogelijk verbergen */
+  display: none; /* voor chrome, safari en edge*/
+}
+
+/**************************/
+/* de carrousel elementen */
+.caroCarrousel > ul li {
+  flex-basis: 100%;
+  flex-shrink: 0;
+  /* snappen als er gescrolled wordt - andere helft bij ul */
+  scroll-snap-align: center;
+}
+
+/**********************************/
+/* de carrousel elementen content */
+
+/* de stijlen voor jouw content hier */
+.caroCarrousel > ul li > img {
+  display: block;
+  width: 50%;
+  order: -100;
+  justify-items: center;
+}
+
+/****************/
+/* DE BOLLETJES */
+/****************/
+
+/* de bolletjes container */
+.caroCarrousel nav ul {
+  position: absolute;
+  left: 2em;
+  right: 2em;
+  bottom: 0;
+  margin: 5em;
+  padding: 0 0 0.5em;
+  list-style: none;
+
+  display: flex;
+  /* 	flex-wrap:wrap; */
+  justify-content: center;
+  gap: 0.01em;
+}
+
+/* een bolletje container */
+.caroCarrousel > nav li {
+  flex-basis: 1.2em;
+  aspect-ratio: 1/1;
+}
+
+/* de bolletjes */
+.caroCarrousel > nav a {
+  display: block;
+  width: 50%;
+  height: 50%;
+
+  text-decoration: none;
+  color: var(--color-button);
+  background-color: var(--color-background);
+  border-radius: 50%;
+  outline: none;
+  box-shadow: inset 0 0 0 1px currentColor;
+  transition: 0.5s;
+}
+
+.caroCarrousel > nav a:hover,
+.caroCarrousel > nav a:focus {
+  color: var(--color-button);
+  background-color: var(--color-button);
+}
+
+.caroCarrousel > nav a.current {
+  background-color: currentColor;
+}
+
+/* vijfde section: flexible plans */
+section:nth-of-type(5) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7em 0em;
+  background-image: url(/images/eten-achtergrond.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section:nth-of-type(5) h2 {
+  font-family: Agrandir, Verdana, Geneva, sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+section:nth-of-type(5) p {
+  font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, sans-serif;
+  margin-bottom: 2em;
+  text-align: center;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+section:nth-of-type(5) > a {
+  font-family: Agrandir, sans-serif;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.2em;
+  color: var(--color-background);
+  background-color: var(--color-button);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1em;
+  font-weight: 400;
+  padding: 0.75em 0.625em;
+  line-height: 1.3em;
+}
+
+/* zesde section: More questions? */
+section:nth-of-type(6) {
+  padding: 2em;
+  background-color: var(--color-grey-background);
+}
+
+section:nth-of-type(6) h2 {
+  margin-bottom: 1em;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+section:nth-of-type(6) details p {
+  padding-left: 3em;
+  padding-right: 3em;
+  margin-bottom: 2em;
+}
+
+section:nth-of-type(6) > ul {
+  border: 1px solid var(--color-text);
+  padding: 0.5em;
+}
+
+section:nth-of-type(6) details summary {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+section:nth-of-type(6) details summary div {
+  margin: 1em;
+  width: 2.5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.8s;
+
+  box-shadow: inset 0 0 0 0.05em var(--color-text);
+}
+
+/* de streepjes */
+section:nth-of-type(6) details summary div span {
+  --color-pijltes: #999;
+  display: block;
+  width: 1em;
+  height: 0.25em;
+  background-color: var(--color-pijltes);
+
+  transition: 0.3s;
+}
+
+section:nth-of-type(6) details p a {
+  color: #067a46;
+}
+
+/* linkerstreepje */
+section:nth-of-type(6) div span:nth-of-type(1) {
+  transform: translateX(0.125em) translateY(-0.33em) rotate(-45deg);
+  transform-origin: calc(100% - 0.125em) center;
+  border-radius: 0 0.125em 0.125em 0;
+  /* opacity: 30%; */
+}
+/* rechterstreepje */
+section:nth-of-type(6) summary div span:nth-of-type(2) {
+  transform: translateX(-0.125em) translateY(-0.33em) rotate(45deg);
+  transform-origin: 0.125em center;
+  border-radius: 0.125em 0 0 0.125em;
+  /* opacity: 30%; */
+}
+section:nth-of-type(6) details[open] summary div span:nth-of-type(1) {
+  transform: translateX(0.125em) translateY(0.33em) rotate(45deg);
+  background-color: var(--color-background);
+}
+
+section:nth-of-type(6) details[open] summary div span:nth-of-type(2) {
+  transform: translateX(-0.125em) translateY(0.33em) rotate(-45deg);
+  background-color: var(--color-background);
+}
+
+section:nth-of-type(6) details[open] summary div {
+  background-color: var(--color-button);
+  box-shadow: inset 0 0 0 0.05em var(--color-button);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer > button {
+  text-decoration: underline;
+  border: 1.8px solid var(--color-button);
+  border-radius: 0.2em;
+  color: var(--color-button);
+  background-color: var(--color-background);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 90%;
+  line-height: 2.5em;
+  font-size: 1em;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+footer details {
+  border-top: 0.1px solid var(--color-border-footer);
+}
+
+footer details summary {
+  list-style: none;
+  padding: 0.5em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer details summary div {
+  margin: 1em;
+  width: 1.5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  order: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-button);
+  transition: 0.8s;
+  /* box-shadow: inset 0 0 0 0.05em var(--color-text); */
+}
+/* de streepjes */
+footer details summary div span {
+  --color-pijltes: #999;
+  display: block;
+  width: 1em;
+  height: 0.25em;
+  background-color: var(--color-background);
+
+  transition: 0.3s;
+}
+
+/* linkerstreepje */
+footer div span:nth-of-type(1) {
+  transform: translateX(0.125em) translateY(-0.3em) rotate(-45deg);
+  transform-origin: calc(100% - 0.125em) center;
+  border-radius: 0 0.125em 0.125em 0;
+  /* opacity: 30%; */
+}
+/* rechterstreepje */
+footer summary div span:nth-of-type(2) {
+  transform: translateX(-0.125em) translateY(-0.3em) rotate(45deg);
+  transform-origin: 0.125em center;
+  border-radius: 0.125em 0 0 0.125em;
+  /* opacity: 30%; */
+}
+footer details[open] summary div span:nth-of-type(1) {
+  transform: translateX(0.125em) translateY(0.3em) rotate(45deg);
+  background-color: var(--color-background);
+}
+
+footer details[open] summary div span:nth-of-type(2) {
+  transform: translateX(-0.125em) translateY(0.3em) rotate(-45deg);
+  background-color: var(--color-background);
+}
+
+footer details[open] summary div {
+  /* background-color: var(--color-button); */
+  /* box-shadow: inset 0 0 0 0.05em var(--color-button); */
+}
