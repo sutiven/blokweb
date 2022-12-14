@@ -8,28 +8,50 @@
 	
 	<title>Hello Fresh homepage</title>
 	
-	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="stylesheet" href="./styles/styles_homepagina.css">
+  <link rel="stylesheet" href="./styles/styles_algemeen.css">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
   <body>
     <header>
-      <img
-      src="./images/Hello_Fresh_Lockup-Logo.png"
-      alt="Hello Fresh Logo"
-    />
-		<button><img src="./images/icons8-hamburger-menu-24.png" alt=""></button>
-      <nav>
+      <a href=""><img
+        src="./images/Hello_Fresh_Lockup-Logo.png"
+        alt="Hello Fresh Logo"
+      /></a>
+	<button><img src="./images/icons8-hamburger-menu-24.png" alt=""></button>
+      <nav inert>
         <button>Log in</button>
         <ul>
-          <li><a href=""> Our plans</a></li>
-          <li><a href=""> How It Works</a></li>
-          <li><a href=""> Our Menus</a></li>
-          <li><a href=""> Gift Cards</a></li>
-          <li><a href=""> Sustainability</a></li>
+          <li><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" color="inherit" aria-labelledby="Our Plans"><path d="M12.666 7.5h4v2h-4v-2ZM16.666 11.5h-4v2h4v-2ZM12.666 15.5h4v2h-4v-2ZM10.666 7.5h-2v2h2v-2ZM8.666 11.5h2v2h-2v-2ZM10.666 15.5h-2v2h2v-2Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M4.666 2.5v20h16v-20h-16Zm14 2h-12v16h12v-16Z" fill="currentColor"></path></svg><a href="./plans.html">Our plans</a></li>
+          <li><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" color="inherit" aria-labelledby="How It Works"><path d="M13.916 7.75a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0ZM11.666 18.5v-8h2v8h-2Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M22.666 12.5c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10 10 4.477 10 10Zm-2 0a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z" fill="currentColor"></path></svg><a href="">How It Works</a></li>
+          <li><svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" color="inherit" aria-labelledby="Our Menus"><path d="M12.666 7.5h4v2h-4v-2ZM16.666 11.5h-4v2h4v-2ZM12.666 15.5h4v2h-4v-2ZM10.666 7.5h-2v2h2v-2ZM8.666 11.5h2v2h-2v-2ZM10.666 15.5h-2v2h2v-2Z" fill="currentColor"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M4.666 2.5v20h16v-20h-16Zm14 2h-12v16h12v-16Z" fill="currentColor"></path></svg><a href="">Our Menus</a></li>
+          <li><a href="">Gift Cards</a></li>
+          <li><a href="">Sustainability</a></li>
+          <li><a href="">Help Center</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href="">Gift Cards</a></li>
           <li><a href="">Recycling and Packaging</a></li>
           <li><a href="">Social impact</a></li>
         </ul>
       </nav>
+      <button>
+      <svg
+      width="24"
+      height="24"
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      role="img"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M2 5.005h2.163l2.5 14h1.605a2 2 0 1 0 3.465 0h4.535a2 2 0 1 0 3.465 0H21v-2H8.337l-.357-2h11.93l2.353-10H6.194l-.357-2H2v2Zm4.552 2 1.071 6h10.703l1.411-6H6.552Z"
+        fill="#242424"
+      ></path>
+    </svg>
+   </button>
+      <!--div= nav menu achtergrond -->
     <div></div>
     </header>
     <main>
@@ -38,11 +60,11 @@
         <h2>Take the stress<br>
            out of mealtime
         </h2>
-        <p>America's Most Popular Meal Kit</p>
-        <a href="http://">View our plans</a>
-		    <a href="naar beneden"><img src="./images/Asset 1@2x.png" alt=""></a>      </section>
+        <h3>America's Most Popular Meal Kit</h3>
+        <a href="./plans.html">View our plans</a>
+		    <a href="#test"><img src="./images/Asset 1@2x.png" alt=""></a>      </section>
       </section>
-      <section>
+      <section id="test">
         <h2>Why Hellofresh?</h2>
           <ul>
             <li>
@@ -78,7 +100,7 @@
               <p>Chef-created deliciousness from $7.49 per meal</p>
             </li>
           </ul>
-        <button>Get started</button>
+        <a href="">Get started</a>
       </section>
       <section>
         <img
@@ -93,7 +115,7 @@
           <li>✔ A fun cooking experience that makes you feel unstoppable</li>
           <li>✔ <a href="">Innovative packaging designed to reduce waste</a></li>
         </ul>
-        <a href="">View our plans</a>
+        <a href="./plans.html">View our plans</a>
       </section>
       <section id="bolletjesAndSwipen" class="caroCarrousel" aria-label="Voorbeeld met bolletjes en swipen" tabIndex="-1">
         <h2>Cook it. Love it. Tag it #HelloFreshPics</h2>
@@ -133,17 +155,17 @@
         </ul>
         <nav>
           <ul>
-            <li><a href="#element1" aria-label="go to element1"></a></li>
-            <li><a href="#element2" aria-label="go to element2"></a></li>
-            <li><a href="#element3" aria-label="go to element3"></a></li>
-            <li><a href="#element4" aria-label="go to element4"></a></li>
+            <li><a href="#element1" aria-label="scroll to first instagram post"></a></li>
+            <li><a href="#element2" aria-label="scroll to second instagram post"></a></li>
+            <li><a href="#element3" aria-label="scroll to third instagram post"></a></li>
+            <li><a href="#element4" aria-label="scroll to fourth instagram post"></a></li>
           </ul>
         </nav>
       </section>
       <section>
         <h2>Flexible Plans</h2>
         <p>to meet household's needs</p>
-        <a href="">View our plans</a>
+        <a href="./plans.html">View our plans</a>
       </section>
       <section>
         <h2>More questions?</h2>
@@ -322,31 +344,34 @@
               <li><a href="">Hero Discounts</a></li>
               <li><a href="">Recipe Directory</a></li>
               <li><a href="">California Supply Chains Act</a></li>
-              <li><a href=""></a>Delivery Options</li>
+              <li><a href="">Delivery Options</a></li>
             </ul>
           </details>
           <details>
             <summary><div><span></span><span></span></div>
               Our Company
             </summary>
-            <ul>
-              <li><a href="">HelloFresh Group</a></li>
-              <li><a href="">Sustainability</a></li>
-              <li><a href="">Careers</a></li>
-              <li><a href="">Press</a></li>
-            </ul>
+            <nav>
+              <ul>
+                <li><a href="">HelloFresh Group</a></li>
+                <li><a href="">Sustainability</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Press</a></li>
+              </ul>
+            </nav>
          </details>
          <details>
            <summary><div><span></span><span></span></div>
             Contact us
           </summary>
-              <ul>
-                <li><a href="">Help Center & FAQ</a></li>
-                <li><a href="">Partnership Inquiries</a></li>
-                <li><a href="">Corporate Sales</a></li>
-                <li><a href="">Do Not Sell My Personal Information</a></li>
-              </ul>
-            </nav>
+          <nav>
+            <ul>
+              <li><a href="">Help Center & FAQ</a></li>
+              <li><a href="">Partnership Inquiries</a></li>
+              <li><a href="">Corporate Sales</a></li>
+              <li><a href="">Do Not Sell My Personal Information</a></li>
+            </ul>
+          </nav>
          </details>
       <section>
           <a href="">Terms and Conditions</a>
