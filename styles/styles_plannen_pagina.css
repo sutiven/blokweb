@@ -6,12 +6,13 @@
   --color-text: #111;
   --color-background: #fff;
   --color-button: #067a46;
-  --color-hover-button: #e4eebf;
   --color-grey-background: #f8f8f8;
   --color-border-footer: #bbbbbb;
   --color-boxshadow: rgb(0 0 0 / 15%);
   --color-background-discount: rgb(255, 250, 178);
   --color-tomaat-kroon: #55de2b;
+  --color-hover-light: #e4eebf;
+  --color-hover-darkgreen: #005200;
 }
 li {
   list-style: none;
@@ -124,6 +125,7 @@ section:nth-of-type(1) ul li button {
 section:nth-of-type(1) ul li button:hover {
   border: 1px solid var(--color-button);
   border-radius: 0.4em;
+  background-color: var(--color-hover-light);
 }
 
 /* Meat & Veggies */
@@ -402,6 +404,9 @@ section:nth-of-type(2) ul li button {
   font-size: 1.2em;
   background-color: var(--color-background);
 }
+section:nth-of-type(2) ul li button:hover {
+  background-color: var(--color-hover-light);
+}
 section:nth-of-type(2) p {
   font-size: 1.3em;
   margin-top: 2em;
@@ -438,4 +443,7 @@ section:nth-of-type(3) input:nth-of-type(2) {
   background-color: var(--color-button);
   border: none;
   color: var(--color-background);
+}
+section:nth-of-type(3) input:nth-of-type(2):hover {
+  background-color: var(--color-hover-darkgreen);
 }
