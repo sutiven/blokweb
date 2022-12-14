@@ -1,0 +1,148 @@
+/* ************
+/* CSS REMEDY */
+/**************/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+:root {
+  /* startje */
+  --color-text: #111;
+  --color-background: #fff;
+  --color-button: #067a46;
+  --color-hover-light: #e4eebf;
+  --color-grey-background: #f8f8f8;
+  --color-border-footer: #bbbbbb;
+  --color-box-shadow: rgb(0 0 0 / 15%);
+  --color-hover-darkgreen: #005200;
+  --color-circle-winkelwagen: red;
+}
+* {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+}
+button,
+summary {
+  cursor: pointer;
+}
+img {
+  width: 100%;
+}
+main {
+  margin: 0;
+}
+html.open {
+  overflow: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer > button {
+  text-decoration: underline;
+  border: 1.8px solid var(--color-button);
+  border-radius: 0.2em;
+  color: var(--color-button);
+  background-color: var(--color-background);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 90%;
+  line-height: 2.5em;
+  font-size: 1em;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+footer > button:hover {
+  background-color: var(--color-hover-light);
+}
+footer details {
+  border-top: 0.1px solid var(--color-border-footer);
+}
+
+footer details summary {
+  list-style: none;
+  padding: 0.5em;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer details summary:hover {
+  background-color: var(--color-hover-light);
+}
+footer details summary div {
+  margin: 1em;
+  width: 1.5em;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  order: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-button);
+  transition: 0.8s;
+  /* box-shadow: inset 0 0 0 0.05em var(--color-text); */
+}
+/* de streepjes */
+footer details summary div span {
+  --color-pijltes: #999;
+  display: block;
+  width: 1em;
+  height: 0.25em;
+  background-color: var(--color-background);
+
+  transition: 0.3s;
+}
+
+/* linkerstreepje */
+footer div span:nth-of-type(1) {
+  transform: translateX(0.125em) translateY(-0.3em) rotate(-45deg);
+  transform-origin: calc(100% - 0.125em) center;
+  border-radius: 0 0.125em 0.125em 0;
+  /* opacity: 30%; */
+}
+/* rechterstreepje */
+footer summary div span:nth-of-type(2) {
+  transform: translateX(-0.125em) translateY(-0.3em) rotate(45deg);
+  transform-origin: 0.125em center;
+  border-radius: 0.125em 0 0 0.125em;
+  /* opacity: 30%; */
+}
+footer details[open] summary div span:nth-of-type(1) {
+  transform: translateX(0.125em) translateY(0.3em) rotate(45deg);
+  background-color: var(--color-background);
+}
+
+footer details[open] summary div span:nth-of-type(2) {
+  transform: translateX(-0.125em) translateY(0.3em) rotate(-45deg);
+  background-color: var(--color-background);
+}
+footer details a {
+  color: var(--color-button);
+}
+footer details nav ul {
+  margin-bottom: 2em;
+}
+footer section {
+  display: flex;
+  justify-content: center;
+}
+footer section a {
+  color: var(--color-button);
+  font-size: 0.8em;
+  padding: 0em 1em;
+}
+footer section a:not(:first-of-type) {
+  border-left: 1px solid var(--color-text);
+}
+footer > p {
+  text-align: center;
+  padding: 1em;
+}
