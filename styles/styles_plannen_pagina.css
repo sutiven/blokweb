@@ -13,6 +13,16 @@
   --color-tomaat-kroon: #55de2b;
   --color-hover-light: #e4eebf;
   --color-hover-darkgreen: #005200;
+  --color-vlees: #fe8680;
+  --color-tomaat: #ff5e66;
+  --color-shirt: #ff5e66;
+  --color-klok: #bdf2ff;
+  --color-vis: #d2f895;
+  --color-wortel: #ef670a;
+  --color-appel: #abed0d;
+  --color-huidskleur: #efd384;
+  --color-shirt2: #f4b1d2;
+  --color-shirt3: #40bdf0;
 }
 li {
   list-style: none;
@@ -152,10 +162,10 @@ section:nth-of-type(1)
   button:hover
   svg
   path:nth-of-type(2) {
-  fill: #fe8680;
+  fill: var(--color-vlees);
 }
 section:nth-of-type(1) ul li:nth-of-type(1) button:hover svg circle {
-  fill: #ff5e66;
+  fill: var(--color-shirt);
 }
 
 /* tomaat (so naar danian) */
@@ -176,7 +186,7 @@ section:nth-of-type(1)
 }
 
 section:nth-of-type(1) ul li:nth-of-type(2) button:hover svg circle {
-  fill: #ff5e66;
+  fill: var(--color-tomaat);
 }
 
 section:nth-of-type(1) button figure {
@@ -204,7 +214,7 @@ section:nth-of-type(1)
   button:hover
   svg
   path:nth-of-type(1) {
-  fill: #40bdf0;
+  fill: var(--color-shirt3);
 }
 section:nth-of-type(1)
   ul
@@ -212,7 +222,7 @@ section:nth-of-type(1)
   button:hover
   svg
   path:nth-of-type(2) {
-  fill: #ff5e66;
+  fill: var(--color-tomaat);
 }
 section:nth-of-type(1)
   ul
@@ -220,10 +230,10 @@ section:nth-of-type(1)
   button:hover
   svg
   path:nth-of-type(3) {
-  fill: #f4b1d2;
+  fill: var(--color-shirt2);
 }
 section:nth-of-type(1) ul li:nth-of-type(3) button:hover svg circle {
-  fill: #efd384;
+  fill: var(--color-huidskleur);
 }
 
 /* fit & wholesome */
@@ -237,7 +247,7 @@ section:nth-of-type(1)
   button:hover
   svg
   path:nth-of-type(1) {
-  fill: #abed0d;
+  fill: var(--color-appel);
 }
 /* Quick and Easy */
 section:nth-of-type(1) ul li:nth-of-type(5) button svg path:nth-of-type(1) {
@@ -250,7 +260,7 @@ section:nth-of-type(1)
   button:hover
   svg
   path:nth-of-type(1) {
-  fill: #bdf2ff;
+  fill: var(--color-klok);
 }
 /* Pescatarian */
 section:nth-of-type(1) ul li:nth-of-type(6) button svg path:nth-of-type(1) {
@@ -266,7 +276,7 @@ section:nth-of-type(1)
   button:hover
   svg
   path:nth-of-type(1) {
-  fill: #d2f895;
+  fill: var(--color-vis);
 }
 section:nth-of-type(1)
   ul
@@ -274,7 +284,7 @@ section:nth-of-type(1)
   button:hover
   svg
   path:nth-of-type(2) {
-  fill: #ef670a;
+  fill: var(--color-wortel);
 }
 section:nth-of-type(1) button figure svg {
   padding: 0;
