@@ -130,19 +130,24 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Fee: 
+1. Ik moet nog alles in html zetten, tekst+plaatjes
+2. Nog meer oefenen
+3. Vragen stellen in de les
+Mila:
+1. Basis structuur maken
+2.Inhoud verzamelen(afbeedlingen, iconen, fonts)
+3.Bronnen niet vergeten
+4.CSS
+  
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
+- Alles netjes in HTML zetten
+- Een begin maken aan CSS
+- Loop beetje achter
 - ...
 
 </details>
@@ -154,18 +159,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Heb een begin kunnen maken aan de header en eerste sections, ik kon de achtergrond afbeelding niet goed positioneren. Ik moet de header nog verbeteren.
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+Mila: opgegeven
+Fee: Heeft veel moeite met HTML
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -188,27 +189,21 @@ Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er v
 
 #### Screenreader
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Een manier bedenken om navigatie te sluiten
+"inert" gebruiken om navigatie te skippen indien het niet open is
 
 #### Muis en Toetsenbord
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Muis only: niks aan de hand
+Toetsenbord: manier bedenken om nav te sluiten
 
 #### Motoriek (shocks, elastiekjes)
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De buttons groter maken 
 
 #### Visueel (brillen, contrast, kleurenblind, dark/light).
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Meer contrast in de hover op de buttons
 
 </details>
 
@@ -225,20 +220,14 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+n.v.t.
+  
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Heb geleerd hoe je animaties kan maken met css samen met Danian
+- Heb een terugknop geplaatst in de plannen pagina
 
 </details>
 
@@ -250,17 +239,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Je uitkomst - karakteristiek screenshots:
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  De site ziet er over het algemeen professioneel uit. 
 
 ### Dit ging goed/Heb ik geleerd:
 
 Korte omschrijving met plaatjes
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik ben vooral trots op de animatie-hover in de plannenpagina
+  De summary animatie ziet er ook goed uit
 
 ### Dit was lastig/Is niet gelukt:
 
 Korte omschrijving met plaatjes
-
+  Het lukte me niet om een active state te maken voor buttons in de plannen pagina
+  Ik weet ook niet hoe ik hier plaatjes moet toevoegen.
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
@@ -271,8 +264,6 @@ Korte omschrijving met plaatjes
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+n.v.t.
 
 </details>
