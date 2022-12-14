@@ -3,9 +3,11 @@ let hamburgerMenu = document.querySelector("header > button");
 let navOpen = document.querySelector("header nav");
 let navBackground = document.querySelector("header > div");
 let navCloseText = document.querySelector("header nav ul li:last-of-type");
+
 hamburgerMenu.addEventListener("click", openMenu);
 navBackground.addEventListener("click", closeMenu);
-// navCloseText = addEventListener("click", closeMenu);
+recipeButton.addEventListener("click", activeStateRecipe);
+
 function openMenu() {
   navOpen.classList.toggle("open");
   navOpen.removeAttribute("inert");
@@ -20,6 +22,7 @@ function closeMenu() {
   document.documentElement.classList.toggle("open");
   navOpen.setAttribute("inert", true);
 }
+
 // javascript carroussel
 function createCaroCarrousel(carrouselID) {
   let carrousel = document.querySelector("#" + carrouselID);
