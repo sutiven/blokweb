@@ -73,28 +73,28 @@ hover kan duidelijker
 #### Screenreader
 
 Hij gaat niet van zelf langs de FAQ
-Hier korte omschrijving (met indien nodig afbeeldingen)
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+
 
 #### Muis en Toetsenbord
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+Muis only:
+Geen probleem
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Toetsenbord only:
+Gaat langs de tabben van menu ondanks het menu gesloten is
 
 #### Motoriek (shocks, elastiekjes)
 
 Buttons zijn relatief klein voor motorieke beperkingen
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  
+  oplossing: De buttons vergroten
 
 #### Visueel (brillen, contrast, kleurenblind, dark/light).
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De hover van de buttons hebben een laag contrast waardoor het moeilijk is om waar te nemen
+  
+  oplossing: hover contrast verhogen
 
 </details>
 
@@ -124,7 +124,12 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb een overzicht gemaakt van welke stukken van de website ik wel en niet ga coderen. Verder heb ik een begin gemaakt aan de HTML code. Hier ga ik alle content erin verwerken waarmee ik later met CSS verder ga stylen. Hier had ik tot nu toe niet echt moeite mee.
+  
+      <img src="readme-images/html-1.jpg" width="375px" alt="html-code">
+        <img src="readme-images/html-2.jpg" width="375px" alt="html-code">
+        <img src="readme-images/html-3.jpg" width="375px" alt="html-code">
+
 
 ### Agenda voor meeting
 
@@ -134,6 +139,7 @@ Fee:
 1. Ik moet nog alles in html zetten, tekst+plaatjes
 2. Nog meer oefenen
 3. Vragen stellen in de les
+  
 Mila:
 1. Basis structuur maken
 2.Inhoud verzamelen(afbeedlingen, iconen, fonts)
@@ -145,10 +151,10 @@ Mila:
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- Alles netjes in HTML zetten
+- HTML code afronden
 - Een begin maken aan CSS
 - Loop beetje achter
-- ...
+- bling bling ideeën bedenken
 
 </details>
 
@@ -160,12 +166,14 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 
 Heb een begin kunnen maken aan de header en eerste sections, ik kon de achtergrond afbeelding niet goed positioneren. Ik moet de header nog verbeteren.
+        <img src="header_en_section1.jpg" width="375px" alt="html-code">
+
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-Mila: opgegeven
+Mila: opgegeven :(
 Fee: Heeft veel moeite met HTML
 ### Verslag van meeting
 
