@@ -272,8 +272,8 @@ Ik kwam erachter dat mijn html-code niet volledig screenread-vriendelijk is. Ik 
 Korte omschrijving met plaatjes
   
   
-  <img src="readme-images/lastig-1" width="375px" alt="bummer">
-    <img src="readme-images/lastig-2" width="375px" alt="bummer">
+  <img src="readme-images/lastig-1.jpg" width="375px" alt="bummer">
+    <img src="readme-images/lastig-2.jpg" width="375px" alt="bummer">
 
 </details>
 
