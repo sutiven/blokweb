@@ -112,7 +112,7 @@ De hover van de buttons hebben een laag contrast waardoor het moeilijk is om waa
 
 ### dynamisch deel (bijv menu):
 
-    <img src="readme-images/breakdownsheet-5.jpg" width="375px" alt="breakdown van een dynamisch deel">
+<img src="readme-images/breakdownsheet-5.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 
 </details>
