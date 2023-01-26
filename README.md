@@ -125,13 +125,14 @@ De hover van de buttons hebben een laag contrast waardoor het moeilijk is om waa
 ### Stand van zaken
 
   Ik heb een overzicht gemaakt van welke stukken van de website ik wel en niet ga coderen. Verder heb ik een begin gemaakt aan de HTML code. Hier ga ik alle content erin verwerken waarmee ik later met CSS verder ga stylen. Hier had ik tot nu toe niet echt moeite mee.
-
-
-### Agenda voor meeting
   
       <img src="readme-images/html-1.jpg" width="375px" alt="html-code">
       <img src="readme-images/html-2.jpg" width="375px" alt="html-code"> 
       <img src="readme-images/html-3.jpg" width="375px" alt="html-code">  
+
+
+### Agenda voor meeting
+  
 
 
 samen met je groepje opstellen
