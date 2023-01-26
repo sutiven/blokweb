@@ -105,7 +105,10 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 ### de hele pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownsheet-1.jpg" width="375px" alt="breakdown van een dynamisch deel">
+    <img src="readme-images/breakdownsheet-2.jpg" width="375px" alt="breakdown van een dynamisch deel">
+    <img src="readme-images/breakdownsheet-3.jpg" width="375px" alt="breakdown van een dynamisch deel">
+    <img src="readme-images/breakdownsheet-4.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
 ### dynamisch deel (bijv menu):
 
