@@ -128,8 +128,8 @@ De hover van de buttons hebben een laag contrast waardoor het moeilijk is om waa
   
 
       <img src="readme-images/html-1.jpg" width="375px" alt="html-code">
-        <img src="readme-images/html-2.jpg" width="375px" alt="html-code">
-        <img src="readme-images/html-3.jpg" width="375px" alt="html-code">
+      <img src="readme-images/html-2.jpg" width="375px" alt="html-code">
+      <img src="readme-images/html-3.jpg" width="375px" alt="html-code">
 
 ### Agenda voor meeting
 
@@ -167,7 +167,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 Heb een begin kunnen maken aan de header en eerste sections, ik kon de achtergrond afbeelding niet goed positioneren. Ik moet de header nog verbeteren.
 
-    <img src="header_en_section1.jpg" width="375px" alt="html-code">
+<img src="header_en_section1.jpg" width="375px" alt="html-code">
 
 ### Agenda voor meeting
 
