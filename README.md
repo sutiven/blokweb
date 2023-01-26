@@ -39,12 +39,12 @@ https://www.hellofresh.com/#question-US-homepage-FAQ-How-many-times-a-week-does-
 #### Screenshot(s) van de eerste pagina (small screen):
 
 homepagina
-  <img src="readme-images/homepagina_hellofresh.jpg" width="375px" alt="omschrijving van pagina">
+  <img src="readme-images/homepagina_hellofresh.png" width="375px" alt="omschrijving van pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 our plan pagina
-  <img src="readme-images/plannenpagina_hellofresh.jpg" width="375px" alt="omschrijving van pagina">
+  <img src="readme-images/plannenpagina_hellofresh.png" width="375px" alt="omschrijving van pagina">
 
 </details>
 
