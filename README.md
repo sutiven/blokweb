@@ -166,7 +166,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 ### Stand van zaken
 
 Heb een begin kunnen maken aan de header en eerste sections, ik kon de achtergrond afbeelding niet goed positioneren. Ik moet de header nog verbeteren.
-        <img src="header_en_section1.jpg" width="375px" alt="html-code">
+    <img src="header_en_section1.jpg" width="375px" alt="html-code">
 
 
 ### Agenda voor meeting
@@ -179,10 +179,9 @@ Fee: Heeft veel moeite met HTML
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Verder werken aan CSS
+- Begin maken aan JS
+- Absolute position gebruiken voor achtergrond img
 
 </details>
 
@@ -221,14 +220,14 @@ Meer contrast in de hover op de buttons
   <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  
+Ik ben bijna klaar met de lay-out van de homepagina. Ik moet nog wel de bovenstaande verbeterpunten in de homgepagina verwerken. De plannenpagina moet ik nog uitwerken.
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-n.v.t.
+Bespreken welke elementen ik kan toevoegen om mijn website meer toegankelijk te maken.
   
 ### Verslag van meeting
 
@@ -246,32 +245,42 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-  De site ziet er over het algemeen professioneel uit. 
+  <img src="readme-images/resultaat-1.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/resultaat-2.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/resultaat-3.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/resultaat-4.jpg" width="375px" alt="uitomst opdracht 1">
+
 
 ### Dit ging goed/Heb ik geleerd:
-
+  
+-Ik heb geleerd hoe je een slide-menu kan maken met behulp van JS
+-Ik heb geleerd hoe je animaties kan maken
+- Ik heb geleerd hoe je rekening kan houden met mensen die een visuele/motoriek beperking hebben
+- ik ben beter geworden in HTML, CSS en JS
 Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-  Ik ben vooral trots op de animatie-hover in de plannenpagina
-  De summary animatie ziet er ook goed uit
+  <img src="readme-images/trots-1.jpg" width="375px" alt="top">
+  Ik ben vooral trots op de ingredienten selector in de plannenpagina. Ik vind dat mijn pagina in het geheel erg professioneel uitziet vergeleken met mijn voorgaande codeer-pagina's. Ik heb gemerkt dat ik tijdens dit vak grote vooruitgang stappen heb gezet in coderen. Ik merk dat ik coderen steeds meer begrijp waardoor ik het persoonlijk steeds leuker begin te vinden :)
 
 ### Dit was lastig/Is niet gelukt:
-
+  
+De officiele plannenpagina bestaat uit meerdere stappen. Ik kwam er niet aan toe om het volledig uit te werken.
+Ik kwam erachter dat mijn html-code niet volledig screenread-vriendelijk is. Ik heb checkmark emoji's gebruikt waardoor de screenreader die volledig hardop leest, wat niet de bedoeling is. Bij sommige gedeelte heb ik eerst de <img> gecodeerd en daarna pas de content. Deze volgorde moet worden omgedraaid omdat de content belangrijker is.
+  
 Korte omschrijving met plaatjes
-  Het lukte me niet om een active state te maken voor buttons in de plannen pagina
-  Ik weet ook niet hoe ik hier plaatjes moet toevoegen.
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  
+  
+  <img src="readme-images/lastig-1" width="375px" alt="bummer">
+    <img src="readme-images/lastig-2" width="375px" alt="bummer">
+
 </details>
 
 ## Bronnenlijst
 
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
-
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
-
-n.v.t.
+Carrousel:(https://codepen.io/shooft/pen/yLKjzWa)
+Checkboxes: https://codepen.io/shooft/pen/QWxegaJ
+https://www.a11yproject.com/posts/how-to-hide-content/
 
 </details>
